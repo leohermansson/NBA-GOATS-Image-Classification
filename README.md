@@ -16,7 +16,7 @@ Utilize a GPU to significantly speed up training time.
 
 Compare true vs. predicted results to evaluate model performance.
 
-Work with AI tools (mainly Claude) to assist with debugging and implementation.
+Work with AI tools (mainly Claude) to assist with debugging and implementation — while always verifying the AI-generated code before using it.
 
 ## Dataset
 
