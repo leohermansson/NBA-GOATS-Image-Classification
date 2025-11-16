@@ -22,17 +22,10 @@ Work with AI tools (mainly Claude) to assist with debugging and implementation �
 
 I collected images using the bing_image_downloader library. While it was quick and easy to use, I discovered that the results were sometimes inaccurate.
 
-For example, an image of actor Michael B. Jordan was downloaded instead of basketball player Michael Jordan. I manually removed this and three other incorrect images, but I understand that this isn’t a sustainable solution for larger or production-level projects.
+For example, an image of actor Michael B. Jordan was downloaded instead of basketball player Michael Jordan. I manually removed this and other images including other inaccuracies, but I understand that this isn’t a sustainable solution for larger or production-level projects.
 
-In total, I used 246 images:
-
-Most classes had 50 images
-
-Two classes had 48 images due to inconsistencies in the downloaded data
 
 ## Future Improvements
-
-There’s plenty of room for improvement:
 
 Use a more reliable data collection method to ensure accurate labeling.
 
@@ -42,4 +35,4 @@ Experiment with different architectures or data augmentation techniques to impro
 
 ## Purpose
 
-This project is intended for educational purposes only. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way.
+This project is intended for educational purposes. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way. Feel free to use the project. For any inquiries, please reach out to my email, which is in my project bio.
