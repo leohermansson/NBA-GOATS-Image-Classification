@@ -14,6 +14,10 @@ Use PyTorch’s ImageFolder and DataLoader modules to organize data into trainin
 
 Utilize a GPU to significantly speed up training time.
 
+Create a neural network specialized for image classification.
+
+Compare my model with a pre-trained model.
+
 Compare true vs. predicted results to evaluate model performance.
 
 Work with AI tools (mainly Claude) to assist with debugging and implementation — while always verifying the AI-generated code before using it.
