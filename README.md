@@ -46,8 +46,10 @@ Before starting, I had a basic understanding of neural networks — that they ar
 ImageNet Classification with Deep Convolutional Neural Networks
 https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
 
-Build Your First PyTorch Model (Linear Regression)
+Build Your First PyTorch Model (Linear Regression)  
+
 https://www.youtube.com/watch?v=QPCFnbonpNQ&t=226s
 
-Build Your First Pytorch Model In Minutes! [Tutorial + Code]
+Build Your First Pytorch Model In Minutes! [Tutorial + Code]  
+
 https://www.youtube.com/watch?v=tHL5STNJKag&t=931s
