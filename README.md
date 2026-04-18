@@ -7,10 +7,6 @@ This project was created as a way to learn PyTorch and explore image classificat
 
 Before starting, I had a basic understanding of neural networks — that they are an efficient way to label and predict complex data using gradient descent, a learning rate, and activation functions. However, applying these concepts in code taught me much more about how they actually work in practice.
 
-## Project Structure
-├── nba_classifier.ipynb   # Main Colab notebook
-├── README.md
-└── /data                  # Image folders (not committed to repo)
 
 ## Getting Started
 
