@@ -57,8 +57,8 @@ The pre-trained model (e.g. ResNet18) achieved 90% test accuracy.
 
 * This project is intended for educational purposes. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way. Feel free to use the project. For any inquiries, please reach out to my email or Medium.
 
-Mail: leo.hermansson@gmail.com
-Medium: I Trained a Neural Network to Recognize NBA Legends
+- Mail: leo.hermansson@gmail.com
+- Medium: I Trained a Neural Network to Recognize NBA Legends
 https://medium.com/@leo.hermansson/i-trained-a-neural-network-to-recognize-nba-legends-ee5cd6e1e786
 
 ## Sources of inspiration
