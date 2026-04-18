@@ -14,7 +14,6 @@ This project runs entirely in Google Colab — no local installation required.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JaFR53X_9cjXHuJt3l1X6Qf5mzXk3-Mi#scrollTo=hUii2ygs4JkA)
 
-How do I know which versions of the packages I have? I didn't check when i did the project.
 ### Requirements
 The following libraries are used and can be installed directly in the notebook:
 
