@@ -6,6 +6,31 @@ This project was created as a way to learn PyTorch and explore image classificat
 
 Before starting, I had a basic understanding of neural networks — that they are an efficient way to label and predict complex data using gradient descent, a learning rate, and activation functions. However, applying these concepts in code taught me much more about how they actually work in practice.
 
+## Project Structure
+├── nba_classifier.ipynb   # Main Colab notebook
+├── README.md
+└── /data  
+
+## Getting Started
+
+This project runs entirely in Google Colab — no local installation required.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+
+### Requirements
+The following libraries are used and can be installed directly in the notebook:
+
+- Python 3.x (via Colab)
+- PyTorch + torchvision
+- bing-image-downloader
+- matplotlib
+- numpy
+
+To install any missing dependencies within the notebook:
+\```python
+!pip install bing-image-downloader
+\```
+
 ## What I Learned
 
 * Throughout this project, I learned to:
@@ -24,9 +49,13 @@ Before starting, I had a basic understanding of neural networks — that they ar
 
 ## Dataset
 
-* I collected images using the bing_image_downloader library. While it was quick and easy to use, I discovered that the results were sometimes inaccurate.
+* I collected images using the bing_image_downloader library. While it was quick and easy to use, I discovered that the results were prone to inaccuracies.
 
-* For example, an image of actor Michael B. Jordan was downloaded instead of basketball player Michael Jordan. I manually removed this and other images including other inaccuracies, but I understand that this isn’t a sustainable solution for larger or production-level projects.
+* For example, an image of actor Michael B. Jordan was downloaded instead of basketball player Michael Jordan, given my search term "Michael Jordan". I manually removed this and other images including other inaccuracies, but I understand that this isn’t a sustainable solution for larger or production-level projects. In such cases, for accurate search terms, like "Michael Jordan NBA" or "Michael Jeffrey Jordan" might prove more useful, or using a different package to download images.
+
+## Results
+The custom CNN achieved ~88% test accuracy.  
+The pre-trained model (e.g. ResNet18) achieved 90% test accuracy.
 
 
 ## Future Improvements
@@ -39,7 +68,7 @@ Before starting, I had a basic understanding of neural networks — that they ar
 
 ## Purpose
 
-* This project is intended for educational purposes. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way. Feel free to use the project. For any inquiries, please reach out to my email, which is in my project bio.
+* This project is intended for educational purposes. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way. Feel free to use the project. For any inquiries, please reach out to my email or Medium blog post.
 
 ## Sources of inspiration
 
