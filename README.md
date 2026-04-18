@@ -1,4 +1,5 @@
-# NBA-GOATS-Image-Classification
+# NBA GOATS Image Classification
+
 
 ## Overview
 
@@ -9,49 +10,39 @@ Before starting, I had a basic understanding of neural networks — that they ar
 ## Project Structure
 ├── nba_classifier.ipynb   # Main Colab notebook
 ├── README.md
-└── /data  
+└── /data                  # Image folders (not committed to repo)
 
 ## Getting Started
 
 This project runs entirely in Google Colab — no local installation required.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JaFR53X_9cjXHuJt3l1X6Qf5mzXk3-Mi#scrollTo=hUii2ygs4JkA)
 
+How do I know which versions of the packages I have? I didn't check when i did the project.
 ### Requirements
 The following libraries are used and can be installed directly in the notebook:
 
-- Python 3.x (via Colab)
-- PyTorch + torchvision
-- bing-image-downloader
-- matplotlib
-- numpy
-
-To install any missing dependencies within the notebook:
-\```python
-!pip install bing-image-downloader
-\```
+- Python: 3.12.13 (via Colab)
+- PyTorch(torchvision): 0.25
+- bing-image-downloader: 1.1.2
+- seaborn: 0.13.2
+- matplotlib: 3.10.0
+- numpy: 2.0.2
 
 ## What I Learned
 
-* Throughout this project, I learned to:
+Throughout this project, I learned to:
 
-* Use PyTorch’s ImageFolder and DataLoader modules to organize data into training, testing, and validation sets.
-
-* Utilize a GPU to significantly speed up training time.
-
-* Create a neural network specialized for image classification.
-
-* Compare my model with a pre-trained model.
-
-* Compare true vs. predicted results to evaluate model performance.
-
-* Work with AI tools (mainly Claude) to assist with debugging and implementation — while always verifying the AI-generated code before using it.
+- Use PyTorch's ImageFolder and DataLoader to organize data into training, validation, and test sets.
+- Use a GPU to significantly speed up training.
+- Build a CNN specialized for image classification.
+- Compare my model against a pre-trained ResNet18 baseline.
+- Evaluate performance by visualizing true vs. predicted labels.
+- Use AI tools (mainly Claude) to assist with debugging — while always verifying generated code before using it.
 
 ## Dataset
 
-* I collected images using the bing_image_downloader library. While it was quick and easy to use, I discovered that the results were prone to inaccuracies.
-
-* For example, an image of actor Michael B. Jordan was downloaded instead of basketball player Michael Jordan, given my search term "Michael Jordan". I manually removed this and other images including other inaccuracies, but I understand that this isn’t a sustainable solution for larger or production-level projects. In such cases, for accurate search terms, like "Michael Jordan NBA" or "Michael Jeffrey Jordan" might prove more useful, or using a different package to download images.
+Images were collected using the `bing_image_downloader` library. While quick to use, the results were prone to inaccuracies — for example, searching "Michael Jordan" returned images of actor Michael B. Jordan. I manually cleaned these, but this doesn't scale to larger projects. More specific search terms like "Michael Jordan NBA" or a more robust scraping library would be better alternatives.
 
 ## Results
 The custom CNN achieved ~88% test accuracy.  
@@ -68,7 +59,11 @@ The pre-trained model (e.g. ResNet18) achieved 90% test accuracy.
 
 ## Purpose
 
-* This project is intended for educational purposes. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way. Feel free to use the project. For any inquiries, please reach out to my email or Medium blog post.
+* This project is intended for educational purposes. My goal was to better understand how image classification works in PyTorch, and I hope others can also learn something from it along the way. Feel free to use the project. For any inquiries, please reach out to my email or Medium.
+
+Mail: leo.hermansson@gmail.com
+Medium: I Trained a Neural Network to Recognize NBA Legends
+https://medium.com/@leo.hermansson/i-trained-a-neural-network-to-recognize-nba-legends-ee5cd6e1e786
 
 ## Sources of inspiration
 
