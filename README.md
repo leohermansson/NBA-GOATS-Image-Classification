@@ -10,7 +10,7 @@ Before starting, I had a basic understanding of neural networks — that they ar
 
 ## Getting Started
 
-This project runs entirely in Google Colab — no local installation required.
+This project runs entirely in Google Colab — no local installation required. Click on the Colab icon below to open and run it in your own environment.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JaFR53X_9cjXHuJt3l1X6Qf5mzXk3-Mi#scrollTo=hUii2ygs4JkA)
 
